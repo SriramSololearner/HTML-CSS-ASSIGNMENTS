@@ -5,3 +5,123 @@
 width: 100%;
 height: 100%;
 }
+
+
+body{
+    background-color: rgb(15, 15, 14);
+}
+.header{
+    width:100px;
+    height:150px;
+
+}
+img{
+    float: left;
+    margin:20px;
+}
+#search{
+    float:right;
+    margin-top:-70px;
+    margin-right:15px;
+    border:none;
+}
+
+.nav-link{
+    margin-top:20px;
+    font-size: 20px;
+    height:50px;
+    border:2px solid aliceblue;
+    font-size:large;
+}
+
+#nav1{
+    position: absolute;
+    margin:20px 400px;
+    text-decoration: none;
+    color:coral;
+}
+
+#nav2{
+    position: absolute;
+    margin:20px 600px;
+    text-decoration: none;
+    color:coral;
+}
+
+#nav3{
+    position: absolute;
+    margin:20px 800px;
+    text-decoration: none;
+    color:coral;
+}
+
+#nav4{
+    position: absolute;
+    margin:20px 1000px;
+    text-decoration: none;
+    color:coral;
+}
+
+#nav5{
+    position: absolute;
+    margin:20px 1200px;
+    text-decoration: none;
+    color:coral;
+}
+
+#nav6{
+    position: absolute;
+    margin:20px 1400px;
+    text-decoration: none;
+    color:coral;
+}
+#nav1:hover, #nav2:hover, #nav3:hover, #nav4:hover, #nav5:hover, #nav6:hover{
+    cursor: pointer;
+    color:aquamarine;
+    font-family: sans-serif;
+
+}
+
+#right-sidebar-menu{
+    margin-top: 20px;
+    margin-left:20px;
+    list-style-type:none;
+    font-size: 25px;
+    line-height: 35px;
+    color: cornflowerblue;
+}
+
+.mylist{
+    position:absolute;
+    float:right;
+    top:220px;
+    right:60px;
+    font-size: 25px;
+    list-style-type:none;
+    color:brown;
+    line-height: 40px;
+}
+
+
+.main-content-section{
+    display:inline-block;
+    position:relative;
+    top:-400px;
+    left:400px;
+}
+
+.post-img{
+    margin-top:50px;
+    margin-right:10px;
+    width: 250px;
+    height:250px;
+    position:relative;
+    left:150px;
+}
+
+#page-footer{
+    position:absolute;
+    top:900px;
+    color:aqua;
+    font-size:20px;
+}
